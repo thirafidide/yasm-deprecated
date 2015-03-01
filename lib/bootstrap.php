@@ -19,6 +19,10 @@ foreach (glob(APP_PATH . 'config/*.php') as $configs) {
 	require_once $configs;
 }
 
+// include library classes
+require_once 'controller.php';
+require_once 'model.php';
+
 // Instantiate app
 $app = new Slim\Slim($config['slim']['global']);
 
