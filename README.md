@@ -22,6 +22,12 @@ Edit the database configuration in `app/config.php` to match your settings.
 Now set your server's document root to the `public/` directory.
 
 ### Model
+```php
+class SomeModel extends Model {
+	
+	// Use same as Eloquent ORM Model
+}
+```
 
 ### Controller
 
@@ -29,13 +35,16 @@ Now set your server's document root to the `public/` directory.
 
 ### Routing
 
-## Credit and Documentation
+## Credits and Documentation
 
 #### Slim framework
 http://docs.slimframework.com
 
 #### Eloquent ORM
 http://laravel.com/docs/eloquent
+
+### Slim & Eloquent
+https://github.com/kladd/slim-eloquent
 
 #### Twig Template Engine
 http://twig.sensiolabs.org/documentation
